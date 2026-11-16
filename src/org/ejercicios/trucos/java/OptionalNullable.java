@@ -9,8 +9,8 @@ public class OptionalNullable {
 	
 	public static void optNullable(PersonaVO persona) {
 		if(persona.getNombre() != null) {
-			System.out.println("**********************************");
-			System.out.println("Prueba: " + persona.getNombre());
+			System.out.println("Nombre: " + persona.getNombre());
+			System.out.println("Edad: " + persona.getEdad());
 		}
 		
 		Optional.ofNullable(persona)

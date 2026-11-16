@@ -8,6 +8,7 @@ public class PersonaVO implements Serializable {
 
 	private String nombre;
 	private Integer edad;
+	private String apellidoPaterno;
 
 	public PersonaVO() {
 
@@ -32,6 +33,14 @@ public class PersonaVO implements Serializable {
 
 	public void setEdad(Integer edad) {
 		this.edad = edad;
+	}
+
+	public String getApellidoPaterno() {
+		return apellidoPaterno;
+	}
+
+	public void setApellidoPaterno(String apellidoPaterno) {
+		this.apellidoPaterno = apellidoPaterno;
 	}
 
 }

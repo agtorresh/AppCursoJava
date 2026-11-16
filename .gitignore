@@ -1,0 +1,30 @@
+
+# Archivos de Eclipse
+.metadata/
+.settings/
+
+# Archivos compilados Java
+*.class
+
+# Carpetas de compilación
+bin/
+target/
+build/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.log
+
+# Configuración del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuración de otros IDE
+.idea/
+.vscode/
+
+# Archivos de configuración de Eclipse
+.classpath
+.project

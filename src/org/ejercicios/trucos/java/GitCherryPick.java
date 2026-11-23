@@ -6,6 +6,7 @@ public class GitCherryPick {
 		System.out.println("Esta es la prueba para el CherryPick");
 		System.out.println("Prueba con Stash y Cherry Pick");
 		System.out.println("Prueba con Stash y Cherry Pick 2");
+		System.out.println("Prueba con Stash y Cherry Pick 3");
 	}
 
 }
